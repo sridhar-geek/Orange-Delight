@@ -98,7 +98,7 @@ const items = {
       id: 1,
       name: "Almond",
       url: "/images/dry fruits/almond.webp",
-      price: 500,
+      price: 400,
     },
     {
       id: 2,
@@ -110,14 +110,14 @@ const items = {
       id: 3,
       name: "Masala Kaju",
       url: "/images/dry fruits/MASALAKAJU.webp",
-      price: 500,
+      price: 700,
     },
-    { id: 4, name: "Pista", url: "/images/dry fruits/pista.webp", price: 500 },
+    { id: 4, name: "Pista", url: "/images/dry fruits/pista.webp", price: 600 },
     {
       id: 1,
       name: "Raisins",
       url: "/images/dry fruits/raisins.webp",
-      price: 500,
+      price: 300,
     },
   ],
   Snacks: [
@@ -125,7 +125,7 @@ const items = {
       id: 1,
       name: "Dry Fruit Kachori",
       url: "/images/snacks/DryFruitKachori.webp",
-      price: 340,
+      price: 250,
     },
     {
       id: 2,
@@ -137,34 +137,34 @@ const items = {
       id: 3,
       name: "Gol Mathri",
       url: "/images/snacks/GolMathri.webp",
-      price: 340,
+      price: 290,
     },
     {
       id: 4,
       name: "Khara Boondi",
       url: "/images/snacks/KharaBoondi.webp",
-      price: 340,
+      price: 150,
     },
     {
       id: 5,
       name: "Lovely NamakPara",
       url: "/images/snacks/LovelyNamakPara.webp",
-      price: 340,
+      price: 300,
     },
     {
       id: 6,
       name: "Muruku",
       url: "/images/snacks/Muruku.webp",
-      price: 340,
+      price: 150,
     },
     {
       id: 7,
       name: "Shakarpara",
       url: "/images/snacks/Shakarpara.webp",
-      price: 340,
+      price: 190,
     },
   ],
-  "Milk Snakes": [
+  "Milk Shakes": [
     {
       id: 1,
       name: "Black Current",

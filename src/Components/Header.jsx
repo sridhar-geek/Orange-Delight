@@ -4,7 +4,7 @@ const Header = () => {
     <header className="header py-1 mx-4 lg:mx-8 ">
       <nav className="header gap-10">
         <img
-          src="/orange delight.jpg"
+          src="/orangeDelight.jpg"
           alt="logo"
           className="select-none cursor-pointer w-28"
         />

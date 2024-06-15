@@ -19,33 +19,33 @@ const Cart = () => {
         {/* Single Products */}
         <div className="prices py-3 mb-1">
           <div>
-            <h4>Black Coffe</h4>
+            <h4>Almond</h4>
             <div className="flex items-center gap-2 bg-white rounded-md">
               <button className="addBtn">-</button>
               <p className="text-xl">3</p>
               <button className="addBtn">+</button>
             </div>
           </div>
-          <p>₹ 3,000</p>
+          <p>₹ 1,800</p>
         </div>
  
       {/* Total Calculations */}
         <div>
           <div className="prices mt-4">
             <h4 className="text-xl font-medium">Sub Total</h4>
-            <p className="text-xl font-medium">₹ 3,000</p>
+            <p className="text-xl font-medium">₹ 1,800</p>
           </div>
           <div className="prices">
             <h4 className="text-textColor font-medium">Discount (10%)</h4>
-            <p className="text-lg text-textColor">₹ 3,000</p>
+            <p className="text-lg text-textColor">₹ 180</p>
           </div>
           <div className="prices">
             <h4 className="text-textColor font-medium">Deliver</h4>
-            <p className="text-lg text-textColor">₹ 100</p>
+            <p className="text-lg text-textColor">₹ 40</p>
           </div>
           <div className="prices">
             <h4 className="text-3xl font-medium">Total</h4>
-            <p className="text-3xl font-medium">₹ 3,000</p>
+            <p className="text-3xl font-medium">₹ 1,660</p>
           </div>
         </div>
       </article>
