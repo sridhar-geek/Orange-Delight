@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    /* Header Styles */
+    .header {
+        @apply flex justify-between items-center 
+    }
+    .navBtn {
+        @apply  px-5 py-2 rounded-full bg-primary-light text-white font-bold hover:bg-primary-dark hidden md:flex
+    }
+    .navigation {
+        @apply text-textColor hover:text-primary-light cursor-pointer font-bold text-sm lg:text-lg hidden md:flex
+    }
+
+    /* Footer Style */
+    .footerNav{
+        @apply flex flex-col gap-2 text-textColor font-medium text-sm
+    }
+    .footerHeading{
+        @apply  hover:text-primary-light cursor-pointer text-white font-bold text-lg
+    }
+    .icons{
+        @apply hover:scale-125 duration-300 cursor-pointer text-xl
+    }
+    /* shopping Cart */
+    .prices{
+        @apply flex flex-row justify-between px-3 items-center
+    }
+    .addBtn{
+        @apply bg-btnColor-light rounded-md px-2 font-bold text-xl hover:bg-btnColor-dark
+    }
+    .btn{
+        @apply rounded-md px-2 my-3 py-3 font-medium text-white
+    }
+}
